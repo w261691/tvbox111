@@ -28,10 +28,10 @@
       "filterable": 1
     },
     {
-      "key": "色猫资源",
-      "name": "色猫资源",
+      "key": "鲨鱼资源3",
+      "name": "鲨鱼资源3",
       "type": 0,
-      "api": "https://api.maozyapi.com/inc/api.php",
+      "api": "https://shayuapi.com/api.php/provide/vod/at/xml",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
