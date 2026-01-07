@@ -16,7 +16,7 @@
       "api": "https://caiji.maotaizy.cc/api.php/provide/vod/from/mtm3u8/at/xml",
       "searchable": 1,
       "quicksearch": 1,
-      "filterable": 1
+      "filterable": 0
     },
     {
       "key": "豪华资源",
