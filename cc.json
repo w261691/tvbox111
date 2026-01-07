@@ -10,10 +10,10 @@
       "filterable": 0
     },
     {
-      "key": "奶香香",
-      "name": "奶香香",
+      "key": "茅台资源",
+      "name": "茅台资源",
       "type": 0,
-      "api": "https://naixxzy.com/api.php/provide/vod/at/xml",
+      "api": "https://caiji.maotaizy.cc/api.php/provide/vod/from/mtm3u8/at/josn/",
       "searchable": 1,
       "quicksearch": 1,
       "filterable": 1
