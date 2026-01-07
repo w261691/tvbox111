@@ -1,10 +1,10 @@
 {
   "sites": [
     {
-      "key": "金鹰资源",
-      "name": "金鹰资源",
+      "key": "杏吧资源",
+      "name": "杏吧资源",
       "type": 0,
-      "api": "https://jyzyapi.com/provide/vod/at/xml/",
+      "api": "https://slapibf.com/api.php/provide/vod/at/xml",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
