@@ -1,10 +1,54 @@
 {
+  "spider": "https://ghp.ci/https://raw.githubusercontent.com/jie2000/TVBox/main/js/tk.js",
   "sites": [
     {
-      "key": "金鹰资源",
+      "key": "jinyingzy",
       "name": "金鹰资源",
-      "type": 0,
-      "api": "https://jyzyapi.com/provide/vod/at/xml",
+      "type": 1,
+      "api": "https://jyzyapi.com/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "索尼资源",
+      "name": "索尼资源",
+      "type": 1,
+      "api": "https://suonizy.net/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+        {
+      "key": "IQIYI",
+      "name": "IQIYI",
+      "type": 1,
+      "api": "https://iqiyizyapi.com/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "categories": [
+        "动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","纪录片","动画片",
+        "国产剧","欧美剧","韩剧","日剧","港剧","台剧","泰剧","海外剧",
+        "大陆综艺","日韩综艺","港台综艺","欧美综艺",
+        "国产动漫","日韩动漫","欧美动漫","港台动漫","海外动漫"
+      ]
+    },
+        {
+      "key": "暴风资源",
+      "name": "暴风资源",
+      "type": 1,
+      "api": "https://bfzyapi.com/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "电影天堂",
+      "name": "电影天堂",
+      "type": 1,
+      "api": "https://dyttzy.tv/api.php/provide/vod",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -12,8 +56,17 @@
     {
       "key": "茅台资源",
       "name": "茅台资源",
-      "type": 0,
-      "api": "https://caiji.maotaizy.cc/api.php/provide/vod/from/mtm3u8/at/xml",
+      "type": 1,
+      "api": "https://caiji.maotaizy.cc/api.php/provide/vod",
+      "searchable": 1,
+      "quicksearch": 1,
+      "filterable": 1
+    },
+        {
+      "key": "茅台资源2",
+      "name": "茅台资源2",
+      "type": 1,
+      "api": "https://mtzy.me/api.php/provide/vod",
       "searchable": 1,
       "quicksearch": 1,
       "filterable": 1
@@ -21,8 +74,26 @@
     {
       "key": "豪华资源",
       "name": "豪华资源",
-      "type": 0,
-      "api": "https://hhzyapi.com/api.php/provide/vod/from/hhm3u8/at/xml",
+      "type": 2,
+      "api": "https://hhzyapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "速播",
+      "name": "速播",
+      "type": 1,
+      "api": "https://subocj.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+        {
+      "key": "极速资源",
+      "name": "极速资源",
+      "type": 1,
+      "api": "https://jszy333.com/api.php/provide/vod",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -30,21 +101,63 @@
     {
       "key": "豆瓣资源",
       "name": "豆瓣资源",
-      "type": 0,
-      "api": "https://caiji.dbzy5.com/api.php/provide/vod/from/dbm3u8/at/xml",
+      "type": 1,
+      "api": "https://caiji.dbzy5.com/api.php/provide/vod",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
     },
     {
-      "key": "红牛资源",
-      "name": "红牛资源",
-      "type": 0,
-      "api" :"https://www.hongniuzy2.com/api.php/provide/vod/from/hnyun/at/xml",
+      "key": "影剧资源",
+      "name": "影剧资源",
+      "type": 1,
+      "api" :"https://caiji.maotaizy.cc/api.php/provide/vod",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
+    },
+    {
+        "key": "虎牙",
+        "name": "虎牙",
+        "type": 1,
+        "api": "https://www.huyaapi.com/api.php/provide/vod",
+        "searchable": 1,
+        "quicksearch": 1,
+        "filterable": 1
+    },
+    {
+        "key": "如意资源",
+        "name": "如意资源",
+        "type": 1,
+        "api": "https://cj.rycjapi.com/api.php/provide/vod",
+       "searchable": 1, 
+       "quicksearch": 1,
+       "filterable": 1
+    },
+    {
+      "key": "旺旺短剧",
+      "name": "旺旺短剧",
+      "type": 1,
+      "api": "https://api.wwzy.tv/api.php/provide/vod",
+      "searchable": 1,
+      "quicksearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "suoni",
+      "name": "🎬索尼资源",
+      "type": 1,
+      "api": "https://suoniapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "categories": [
+        "动作片","喜剧片","4K电影","爱情片","科幻片","恐怖片","剧情片","战争片","纪录片","动画片",
+        "国产剧","欧美剧","韩剧","日剧","港剧","台剧","泰剧","海外剧",
+        "大陆综艺","日韩综艺","港台综艺","欧美综艺",
+        "国产动漫","日韩动漫","欧美动漫","港台动漫","海外动漫"
+      ]
     }
-    
 ]
 }
